@@ -1,6 +1,8 @@
 
 # GPTranslate
 
+##Version [0.8.0-alpha]
+
 GPTranslate is a command-line tool for translating JSON files, using the power of the OpenAI language model. The tool reads a JSON file, a target language, and a context description, and outputs a JSON file that has been translated into the target language.
 
 ## Features
@@ -21,13 +23,11 @@ In some languages, the translation of a word can change significantly depending 
 
 Run GPTranslate from the command-line, providing the path to the JSON file, the target language, and the path to a .txt file containing the context description:
 
-    bash 
-    python gptranslate.py --json_path path/to/file.json --target_language es --context_text_file path/to/context.txt
+`python gptranslate.py --json_path path/to/file.json --target_language es --context_text_file path/to/context.txt`
 
 If you run GPTranslate without any arguments, it will prompt you to enter the necessary information:
 
-    bash 
-    python gptranslate.py
+`python gptranslate.py`
 
 You will be asked to provide:
 
@@ -35,17 +35,50 @@ You will be asked to provide:
 - The target language (ISO 639-1 code).
 - The path to a .txt file containing context text for the translation.
 
+---
+### Configuring OpenAI API Key
+
+GPTranslate uses the OpenAI API chat completions for translate texts. Therefore, it requires an API key to work. If you do not have an API key, you can get one by signing up on the [OpenAI website](https://platform.openai.com/signup).
+
+The API key should be stored in an environment variable called OPENAI_KEY. GPTranslate will try to read this environment variable. If it cannot find the OPENAI_KEY environment variable, it throw an error.
+
+How to set an environment variable on different operating systems:
+
+#### Unix/Linux/MacOS:
+
+You can set an environment variable in Unix, Linux, or MacOS using the export command in the terminal:
+
+`export OPENAI_KEY=your-api-key`
+
+Replace your-api-key with your actual OpenAI API key. This will set the OPENAI_KEY environment variable for your current session. To make it permanent, you can add the export command to your shell profile file (usually ~/.bashrc, ~/.bash_profile, or ~/.zshrc).
+
+#### Windows:
+
+On Windows, you can set an environment variable through the system properties.
+
+1. Open the System Properties dialog by right-clicking on Computer on the Desktop or in the Start menu, select Properties, then click Advanced system settings.
+
+2. In the System Properties dialog, click Environment Variables.
+
+3. In the Environment Variables dialog, click New under the User variables or System variables box (depending on whether you want to set the variable only for the current user or for all users), then enter OPENAI_KEY as the variable name and your actual OpenAI API key as the variable value.
+
+After setting the OPENAI_KEY environment variable, you should be able to run GPTranslate without any API key errors.
+
 ## Installation
 
 To install the necessary dependencies, run:
 
-bash pip install -r requirements.txt A
+`pip install -r requirements.txt`
+
+
 
 ## Requirements
 
 - Python 3.6 or higher
-- requests
 - openai
+- tqdm
+- gnureadline
+
 
 ## Contributing
 
