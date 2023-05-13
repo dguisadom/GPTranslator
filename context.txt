@@ -1,4 +1,9 @@
 Los textos a traducirse refieren al entorno del transporte de mercancías por carretera. Son textos para una aplicación web que usarán transportistas.
-Existen siglas en castellano que debes traducir como :
-    NIF -> Número de identificación fiscal
-    NIE -> Numero de identificación de extranjeros
+Existen siglas en castellano que se traducen como:
+    NIF -> Siglas de Número de identificación fiscal
+    NIE -> Siglas de Número de identificación de extranjeros
+    Bas. In -> Bascula de entrada
+    Bas. Out -> Bascula de salida
+    ET -> Empresa Transportista
+
+Necesito que se traduzcan al idioma de destino como siglas
