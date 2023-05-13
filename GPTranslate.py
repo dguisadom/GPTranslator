@@ -220,7 +220,7 @@ def main():
         output_path = os.path.splitext(json_path)[0] + "_" + target_language + ".json"
         
         with open(output_path, 'w') as f:
-            json.dump(translated_json, f, ensure_ascii=False)
+            json.dump(translated_json, f, ensure_ascii=False,indent=4)
         
         print(f"\nTranslated JSON file saved at: {output_path}")
     except Exception as e:

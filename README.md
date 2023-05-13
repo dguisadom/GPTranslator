@@ -23,7 +23,7 @@ In some languages, the translation of a word can change significantly depending 
 
 Run GPTranslate from the command-line, providing the path to the JSON file, the target language, and the path to a .txt file containing the context description:
 
-`python gptranslate.py --json_path path/to/file.json --target_language es --context_text_file path/to/context.txt`
+`python gptranslate.py --json_path path/to/file.json --target_language ES --context_text_file path/to/context.txt`
 
 If you run GPTranslate without any arguments, it will prompt you to enter the necessary information:
 
@@ -69,6 +69,15 @@ After setting the OPENAI_KEY environment variable, you should be able to run GPT
 To install the necessary dependencies, run:
 
 `pip install -r requirements.txt`
+
+## Common issues
+
+#### Unix/Linux/MacOS:
+
+- **Urllib3 version error**: 
+urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with LibreSSL 2.8.3. 
+See: https://github.com/urllib3/urllib3/issues/2168
+
 
 
 
