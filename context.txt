@@ -1,9 +1,11 @@
 Los textos a traducirse refieren al entorno del transporte de mercancías por carretera. Son textos para una aplicación web que usarán transportistas.
+Si hablamos de descarga o de carga, por ejemplo hablando del punto de carga, nos referimos a mercancías.
 Existen siglas en castellano que se traducen como:
     NIF -> Siglas de Número de identificación fiscal
     NIE -> Siglas de Número de identificación de extranjeros
-    Bas. In -> Bascula de entrada
-    Bas. Out -> Bascula de salida
-    ET -> Empresa Transportista
+    Bas. In -> Pesaje de entrada
+    Bas. Out -> pesaje de salida
+    ET.. -> Empresa transportista
+    Desc. -> Descarga
 
 Necesito que se traduzcan al idioma de destino como siglas

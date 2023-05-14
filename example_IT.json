@@ -1,0 +1,54 @@
+{
+    "repsol-reminds": "Repsol ti ricorda di portare:",
+    "thanks": "Grazie per la tua collaborazione!",
+    "documentation": "Documentazione",
+    "documentation-sent": "Documentazione inviata.",
+    "accompanying-documentation": "Documentazione allegata",
+    "which-attached-documentation": "Quale documento desideri allegare?",
+    "info-option-documentation-text": "Anche hai l'opzione di presentare i Certificati presso il Kiosko (parcheggio camion).",
+    "num-locator-deliveryNote": "N. di Riferimento",
+    "write-num-identification": "Inserisci il tuo numero di NIF/NIE/Passaporto.",
+    "num-identification": "Numero di identificazione fiscale/NIE/Passaporto.",
+    "notice-et": "Avvisare l'ET.",
+    "notice-modal-text": "Seleziona quale azione desideri eseguire per questo documento di trasporto.",
+    "notice-modal-title": "Opzioni di avviso.",
+    "notices": "Avvisi",
+    "notification-map": "Conducente del veicolo {registrationNumber}, si diriga al magazzino {warehouse}, seguendo le indicazioni presenti sulla mappa.",
+    "observation-placeholder": "Aggiungere una osservazione...",
+    "occupancy": "Occupazione",
+    "occupation-step": {
+        "ScaleInput": "Bas. In - Inizio Carico",
+        "Loading": "Caricamento",
+        "ScaleOut": "Fine Carico - Bas. Out",
+        "WaitingForLabSample": "In attesa di campione di laboratorio.",
+        "Downloading": "Desc."
+    },
+    "occupation-step-short": {
+        "ScaleInput": "Bas. In - {operazione}",
+        "ScaleOut": "{operazione} - Pesaggio di uscita",
+        "WaitingForLabSample": "In attesa di campione."
+    },
+    "operating-point-generic": "Punto di carico generico.",
+    "operating-point": "Punto di carico.",
+    "operation": {
+        "Load": "Carico",
+        "Download": "Scarico"
+    },
+    "options": "Opzioni",
+    "order": "Ordine",
+    "order-num": "N. ordine",
+    "other": "Altro",
+    "packaging": "Imballaggio",
+    "page-not-found": "Pagina non trovata.",
+    "parking": "Parcheggio",
+    "pending-actions": "Tareas pendientes",
+    "pending-tests": {
+        "title": "Mancano test da eseguire.",
+        "text-a": "Ti ricordiamo che hai",
+        "text-b": "Test pendenti da eseguire.",
+        "text-c": "Dirigiti all'ufficio delle spedizioni per effettuarli prima del tuo orario prestabilito."
+    },
+    "delivery-note": "Documento di trasporto.",
+    "edit": "Modificare",
+    "english": "Inglese"
+}
