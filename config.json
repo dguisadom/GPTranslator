@@ -1,5 +1,7 @@
 {
-    "version": "0.8.0-alpha",
+    "version": "0.8.1-alpha",
     "author": "@dguisadom",
-    "text_bias": 12
+    "text_bias": 12,
+    "max_retries": 2,
+    "min_context_length": 150
 }

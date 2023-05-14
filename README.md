@@ -1,33 +1,36 @@
 
-# GPTranslate
+# GPTranslator
 
 ## Version [0.8.0-alpha]
 
-GPTranslate is a command-line tool for translating JSON files, using the power of the OpenAI language model. The tool reads a JSON file, a target language, and a context description, and outputs a JSON file that has been translated into the target language.
+GPTranslator is a command-line tool for translating JSON files, using the power of the OpenAI language model. The tool reads a JSON file, a target language, and a context description, and outputs a JSON file that has been translated into the target language.
 
 ## Features
 
-- Command-Line Interface: GPTranslate is designed to be run from the console, making it easy to integrate into scripts and automated workflows.
+- Command-Line Interface: GPTranslator is designed to be run from the console, making it easy to integrate into scripts and automated workflows.
 
 - JSON Input: The tool reads a JSON file, recursively traversing the structure and translating all string values. It can handle JSON objects, arrays, and primitive types.
 
-- Target Language: You can specify the target language for the translation using the ISO 639-1 code. GPTranslate supports all ISO 639-1 language codes.
+- Target Language: You can specify the target language for the translation using the ISO 639-1 code. GPTranslator supports all ISO 639-1 language codes.
 
 - Contextual Translation: Along with the JSON file and target language, you can also provide a description of the technical context. This context can include the type of language, technical words, language context, and even forced translations or the meaning of specific acronyms. This helps ensure the accuracy of the translations.
 
-- Prompt Injection Protection: GPTranslate is designed with protection against prompt injection, ensuring that the integrity of your input and output data is maintained.
+- Prompt Injection Protection: GPTranslator is designed with protection against prompt injection, ensuring that the integrity of your input and output data is maintained.
 
 In some languages, the translation of a word can change significantly depending on the context. For example, the word "load" could be translated differently in a logistics context compared to an electronics context. Thanks to the context prompt feature, you can instruct the model to take into account these differences in language.
 
 ## Usage
 
-Run GPTranslate from the command-line, providing the path to the JSON file, the target language, and the path to a .txt file containing the context description:
+### How to run
+Run GPTranslator from the command-line, providing the path to the JSON file, the target language, and the path to a .txt file containing the context description:
 
-`python gptranslate.py --json_path path/to/file.json --target_language ES --context_text_file path/to/context.txt`
+`python GPTranslator.py --json_path path/to/file.json --target_language ISO_639-1_code --context_text_file path/to/context.txt`
 
-If you run GPTranslate without any arguments, it will prompt you to enter the necessary information:
+![](Images/GPTranslator_cosole_start.png)
 
-`python gptranslate.py`
+If you run GPTranslator without any arguments, it will prompt you to enter the necessary information:
+
+`python GPTranslator.py`
 
 You will be asked to provide:
 
@@ -35,12 +38,22 @@ You will be asked to provide:
 - The target language (ISO 639-1 code).
 - The path to a .txt file containing context text for the translation.
 
+When the translation ends, GPTranslator ask you to check translations that have a substantial length deviation from the original, based on the text_bias parameter
+
+![](Images/GPTranslator_console_end.png)
+
+Finally, GPTranslator saves the JSON result on the same path than the original one.
+
+### Context file
+
+In order to improve the translation result, you have to explain the context as much as you can. Is a good point to explain it in the same language than the original json. By this way you are going to improve the result dramatically.
+
 ---
-### Configuring OpenAI API Key
+## Configuring OpenAI API Key
 
-GPTranslate uses the OpenAI API chat completions for translate texts. Therefore, it requires an API key to work. If you do not have an API key, you can get one by signing up on the [OpenAI website](https://platform.openai.com/signup).
+GPTranslator uses the OpenAI API chat completions for translate texts. Therefore, it requires an API key to work. If you do not have an API key, you can get one by signing up on the [OpenAI website](https://platform.openai.com/signup).
 
-The API key should be stored in an environment variable called OPENAI_KEY. GPTranslate will try to read this environment variable. If it cannot find the OPENAI_KEY environment variable, it throw an error.
+The API key should be stored in an environment variable called OPENAI_KEY. GPTranslator will try to read this environment variable. If it cannot find the OPENAI_KEY environment variable, it throw an error.
 
 How to set an environment variable on different operating systems:
 
@@ -62,7 +75,7 @@ On Windows, you can set an environment variable through the system properties.
 
 3. In the Environment Variables dialog, click New under the User variables or System variables box (depending on whether you want to set the variable only for the current user or for all users), then enter OPENAI_KEY as the variable name and your actual OpenAI API key as the variable value.
 
-After setting the OPENAI_KEY environment variable, you should be able to run GPTranslate without any API key errors.
+After setting the OPENAI_KEY environment variable, you should be able to run GPTranslator without any API key errors.
 
 ## Installation
 
