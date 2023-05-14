@@ -10,8 +10,8 @@
     "write-num-identification": "Schreiben Sie Ihre NIF/NIE/Passnummer.",
     "num-identification": "Steuernummer/Ausländeridentifikationsnummer/Reisepassnummer",
     "notice-et": "Benachrichtigen Sie die ET.",
-    "notice-modal-text": "Wählen Sie aus, welche Aktion Sie für diesen Lieferschein ausführen möchten.",
-    "notice-modal-title": "Optionen für Benachrichtigungen",
+    "notice-modal-text": "Wählen Sie aus, welche Aktion für diesen Lieferschein durchgeführt werden soll",
+    "notice-modal-title": "Möglichkeiten der Benachrichtigungen",
     "notices": "Warnungen",
     "notification-map": "Fahrer des Fahrzeugs {registrationNumber}, fahren Sie zum Lager {warehouse}, indem Sie den Anweisungen auf der Karte folgen.",
     "observation-placeholder": "Eine Anmerkung hinzufügen...",
@@ -21,14 +21,14 @@
         "Loading": "Laden",
         "ScaleOut": "Ende der Beladung - Wiegeausgang",
         "WaitingForLabSample": "Esperando muestra laboratorio.",
-        "Downloading": "Entladend"
+        "Downloading": "Entladung"
     },
     "occupation-step-short": {
-        "ScaleInput": "Wiegen Eingang - {operation}",
-        "ScaleOut": "{operation} - Wiegen Aus",
+        "ScaleInput": "Wiegeeinrichtung Eingang - {operation}",
+        "ScaleOut": "{operation} - Ausfahrtsgewicht",
         "WaitingForLabSample": "Warten auf Probe"
     },
-    "operating-point-generic": "Ladeplatz (LP)",
+    "operating-point-generic": "Lade-/Lösepunkt (gen.)",
     "operating-point": "Ladeplatz",
     "operation": {
         "Load": "Beladung",
@@ -36,7 +36,7 @@
     },
     "options": "Optionen",
     "order": "Bestellung",
-    "order-num": "Bestellungsnr.",
+    "order-num": "Bestellnummer",
     "other": "Otro",
     "packaging": "Verpackung",
     "page-not-found": "Seite nicht gefunden.",
@@ -46,9 +46,9 @@
         "title": "Es fehlen noch Tests durchzuführen.",
         "text-a": "Wir erinnern Sie daran, dass Sie haben",
         "text-b": "Test ausstehend durchzuführen.",
-        "text-c": "Gehe zum Versandbüro, um sie vor deinem Zeitfenster durchzuführen."
+        "text-c": "Wenden Sie sich an das Versandbüro, um sie vor Ihrem Zeitfenster durchzuführen."
     },
     "delivery-note": "Lieferschein",
     "edit": "Bearbeiten",
-    "english": "English"
+    "english": "Englisch"
 }
