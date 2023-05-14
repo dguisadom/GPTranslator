@@ -1,8 +1,8 @@
 {
-    "repsol-reminds": "Repsol lembra que tem que trazer:",
+    "Ikea-reminds": "Ikea lembra que tem que trazer:",
     "thanks": "Obrigado pela sua colaboração!",
     "documentation": "Documentação",
-    "documentation-sent": "Documentação enviada",
+    "documentation-sent": "Documentação enviada.",
     "accompanying-documentation": "Documentação anexada",
     "which-attached-documentation": "Que documento deseja anexar?",
     "info-option-documentation-text": "Também tens a opção de apresentar os Certificados no Kiosko (estacionamento de camiões):",
@@ -13,19 +13,19 @@
     "notice-modal-text": "Seleciona qué ação deseja tomar para este conhecimento de carga.",
     "notice-modal-title": "Opções de avisos.",
     "notices": "Avisos",
-    "notification-map": "Conductor do veículo {registrationNumber}, dirija-se ao armazém {warehouse}, seguindo as indicações que aparecem no mapa.",
+    "notification-map": "Condutor do veículo {registrationNumber}, dirija-se ao armazém {warehouse}, seguindo as indicações que aparecem no mapa.",
     "observation-placeholder": "Adicionar uma observação...",
     "occupancy": "Ocupação",
     "occupation-step": {
-        "ScaleInput": "Bas. In - Início de Carga",
+        "ScaleInput": "Bas. In - Início de carga.",
         "Loading": "Carregando.",
         "ScaleOut": "Fim de carga - Pesagem de saída",
-        "WaitingForLabSample": "Esperando muestra laboratório.",
+        "WaitingForLabSample": "Esperando muestra laboratorio.",
         "Downloading": "Descarga"
     },
     "occupation-step-short": {
         "ScaleInput": "Bas. In - {operação}",
-        "ScaleOut": "{operação} - Bas. Out",
+        "ScaleOut": "{operação} - Pesagem de saída",
         "WaitingForLabSample": "Esperando muestra"
     },
     "operating-point-generic": "Ponto de carga genérico.",
@@ -48,7 +48,7 @@
         "text-b": "Test pendentes de realizar.",
         "text-c": "Dirija-se ao escritório de Expedições para realizá-los antes do seu horário programado."
     },
-    "delivery-note": "Albarã.",
+    "delivery-note": "Guia de remessa.",
     "edit": "Editar",
-    "english": "Inglês"
+    "english": "Português"
 }
