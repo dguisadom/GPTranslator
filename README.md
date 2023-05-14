@@ -1,7 +1,7 @@
 
 # GPTranslator
 
-## Version [0.8.0-alpha]
+## Version [0.8.1-beta]
 
 GPTranslator is a command-line tool for translating JSON files, using the power of the OpenAI language model. The tool reads a JSON file, a target language, and a context description, and outputs a JSON file that has been translated into the target language.
 
