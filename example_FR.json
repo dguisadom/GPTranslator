@@ -1,0 +1,54 @@
+{
+    "repsol-reminds": "Repsol vous rappelle que vous devez apporter :",
+    "thanks": "Merci pour votre collaboration !",
+    "documentation": "Documentation",
+    "documentation-sent": "Documentation envoyée.",
+    "accompanying-documentation": "Documentation jointe",
+    "which-attached-documentation": "Quel document souhaitez-vous joindre?",
+    "info-option-documentation-text": "Aussi, vous avez l'option de présenter les Certificats dans le Kiosque (parking camions).",
+    "num-locator-deliveryNote": "N° de référence",
+    "write-num-identification": "Écrivez votre numéro de NIF/NIE/Passeport.",
+    "num-identification": "Numéro de NIF/NIE/Passeport",
+    "notice-et": "Prévenir l'ET.",
+    "notice-modal-text": "Sélectionnez l'action que vous souhaitez prendre pour ce bon de livraison.",
+    "notice-modal-title": "Options de notifications.",
+    "notices": "Avisos.",
+    "notification-map": "Conducteur du véhicule {registrationNumber}, dirigez-vous vers l'entrepôt {warehouse}, en suivant les indications qui apparaissent sur la carte.",
+    "observation-placeholder": "Ajouter une observation...",
+    "occupancy": "Occupation",
+    "occupation-step": {
+        "ScaleInput": "Bas. In - Début du chargement",
+        "Loading": "Chargement",
+        "ScaleOut": "Fin de Chargement - Pesée de sortie",
+        "WaitingForLabSample": "En attente de l'échantillon de laboratoire.",
+        "Downloading": "Déchargement"
+    },
+    "occupation-step-short": {
+        "ScaleInput": "Bas. In - {opération}",
+        "ScaleOut": "{opération} - Pesée de sortie",
+        "WaitingForLabSample": "En attente d'échantillon."
+    },
+    "operating-point-generic": "Point de chargement générique.",
+    "operating-point": "Point de charge",
+    "operation": {
+        "Load": "Chargement",
+        "Download": "Déchargement"
+    },
+    "options": "Options",
+    "order": "Commande",
+    "order-num": "N° de commande",
+    "other": "Autre",
+    "packaging": "Emballage",
+    "page-not-found": "Page non trouvée.",
+    "parking": "Parking.",
+    "pending-actions": "Tâches en attente.",
+    "pending-tests": {
+        "title": "Il manque des tests à effectuer.",
+        "text-a": "Nous vous rappelons que vous avez",
+        "text-b": "Test en attente de réalisation.",
+        "text-c": "Dirige-toi au bureau des Expéditions pour les réaliser avant ta plage horaire."
+    },
+    "delivery-note": "Bon de livraison.",
+    "edit": "Modifier",
+    "english": "Anglais"
+}

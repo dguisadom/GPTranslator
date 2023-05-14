@@ -14,14 +14,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Inproved translation speed
 
-## [0.8.1-alpha] - 2023-05-14
+## [0.8.1-beta] - 2023-05-14
 
 ### Added
 - Now, if the translation is not correct, the user can ask for a new one
+- Added more examples to show script capabilities
 
 ### Changed
 - Smaller prompt to reduce token usage
 - Repository renamed from GPTranslate to GPTranslator
+- Now the example JO
 
 ### Fixed
 - now check the proper values of the parameters not only when the values are manually filled

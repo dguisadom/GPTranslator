@@ -1,0 +1,54 @@
+{
+    "repsol-reminds": "Repsol lembra que tem que trazer:",
+    "thanks": "Obrigado pela sua colaboração!",
+    "documentation": "Documentação",
+    "documentation-sent": "Documentação enviada",
+    "accompanying-documentation": "Documentação anexada",
+    "which-attached-documentation": "Que documento deseja anexar?",
+    "info-option-documentation-text": "Também tens a opção de apresentar os Certificados no Kiosko (estacionamento de camiões):",
+    "num-locator-deliveryNote": "Nº de Localizador",
+    "write-num-identification": "Escreva o seu número de NIF/NIE/Passaporte.",
+    "num-identification": "Cartão de ciudadão/NIE/passaporte.",
+    "notice-et": "Avisar à Empresa Transportista.",
+    "notice-modal-text": "Seleciona qué ação deseja tomar para este conhecimento de carga.",
+    "notice-modal-title": "Opções de avisos.",
+    "notices": "Avisos",
+    "notification-map": "Conductor do veículo {registrationNumber}, dirija-se ao armazém {warehouse}, seguindo as indicações que aparecem no mapa.",
+    "observation-placeholder": "Adicionar uma observação...",
+    "occupancy": "Ocupação",
+    "occupation-step": {
+        "ScaleInput": "Bas. In - Início de Carga",
+        "Loading": "Carregando.",
+        "ScaleOut": "Fim de carga - Pesagem de saída",
+        "WaitingForLabSample": "Esperando muestra laboratório.",
+        "Downloading": "Descarga"
+    },
+    "occupation-step-short": {
+        "ScaleInput": "Bas. In - {operação}",
+        "ScaleOut": "{operação} - Bas. Out",
+        "WaitingForLabSample": "Esperando muestra"
+    },
+    "operating-point-generic": "Ponto de carga genérico.",
+    "operating-point": "Ponto de carga.",
+    "operation": {
+        "Load": "Carga",
+        "Download": "Desc."
+    },
+    "options": "Opções",
+    "order": "Pedido",
+    "order-num": "Nº pedido",
+    "other": "Outro",
+    "packaging": "Embalagem",
+    "page-not-found": "Página não encontrada.",
+    "parking": "Estacionamento",
+    "pending-actions": "Tarefas pendentes.",
+    "pending-tests": {
+        "title": "Faltam testes a serem realizados.",
+        "text-a": "Te recordamos que tienes",
+        "text-b": "Test pendentes de realizar.",
+        "text-c": "Dirija-se ao escritório de Expedições para realizá-los antes do seu horário programado."
+    },
+    "delivery-note": "Albarã.",
+    "edit": "Editar",
+    "english": "Inglês"
+}

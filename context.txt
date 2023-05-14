@@ -5,7 +5,7 @@ Existen siglas en castellano que se traducen como:
     NIE -> Siglas de Número de identificación de extranjeros
     Bas. In -> Pesaje de entrada
     Bas. Out -> pesaje de salida
-    ET -> Empresa transportista
-    Desc. -> Descarga de mercancías
+    ET.. -> Empresa transportista
+    Desc. -> Descarga
 
 Necesito que se traduzcan al idioma de destino como siglas
